@@ -1,0 +1,173 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#fff;
+color:#222;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
+box-shadow:0 2px 15px rgba(0,0,0,.05);
+}
+
+.logo img{
+height:70px;
+}
+
+nav{
+display:flex;
+gap:30px;
+}
+
+nav a{
+text-decoration:none;
+color:#003d99;
+font-weight:600;
+}
+
+.btn-call{
+background:#0D5DB8;
+color:white;
+padding:12px 25px;
+border-radius:50px;
+text-decoration:none;
+}
+
+.hero{
+height:90vh;
+background:
+linear-gradient(
+rgba(0,40,100,.7),
+rgba(0,40,100,.7)
+),
+url("images/batiment-aes.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+}
+
+.hero-content{
+max-width:700px;
+padding-left:100px;
+color:white;
+}
+
+.hero h1{
+font-size:65px;
+margin:20px 0;
+}
+
+.stats{
+display:flex;
+gap:40px;
+margin:40px 0;
+}
+
+.stats div{
+display:flex;
+flex-direction:column;
+}
+
+.btn{
+display:inline-block;
+background:#0D5DB8;
+color:white;
+padding:15px 30px;
+border-radius:8px;
+text-decoration:none;
+}
+
+section{
+padding:100px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:50px;
+font-size:40px;
+color:#0D5DB8;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:40px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+font-size:40px;
+}
+
+.card h3{
+margin-top:20px;
+font-size:20px;
+}
+
+.about{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:50px;
+}
+
+.about-stats{
+background:#0D5DB8;
+color:white;
+padding:40px;
+border-radius:20px;
+display:flex;
+flex-direction:column;
+gap:20px;
+font-size:28px;
+}
+
+.moyens-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.moyens-grid img{
+width:100%;
+border-radius:20px;
+}
+
+ul li{
+margin-bottom:15px;
+font-size:18px;
+}
+
+.logos{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+text-align:center;
+}
+
+.logos div{
+padding:25px;
+border:1px solid #ddd;
+border-radius:10px;
+}
+
+footer{
+background:#0D5DB8;
+color:white;
+padding:60px;
+text-align:center;
+}
